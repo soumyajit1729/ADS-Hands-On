@@ -1,0 +1,20 @@
+==========================================
+SLURM_CLUSTER_NAME = param-shakti
+SLURM_JOB_ACCOUNT = testfac1
+SLURM_JOB_ID = 381845
+SLURM_JOB_NAME = param.sh
+SLURM_JOB_NODELIST = gpu017
+SLURM_JOB_USER = testuser9
+SLURM_JOB_UID = 6452
+SLURM_JOB_PARTITION = gpu-low
+SLURM_TASK_PID = 194967
+SLURM_SUBMIT_DIR = /scratch/testuser9/day1
+SLURM_CPUS_ON_NODE = 1
+SLURM_NTASKS = 
+SLURM_TASK_PID = 194967
+==========================================
+slurmstepd: pyxis: creating container filesystem ...
+slurmstepd: pyxis: starting container ...
+slurmstepd: error: Could not run slurm task_prolog [/var/share/slurm/slurm.taskprolog]: No such file or directory
+Execution Time for CUDA JIT: 2.066048 seconds
+Execution Time for CPython: 867.758231 seconds
